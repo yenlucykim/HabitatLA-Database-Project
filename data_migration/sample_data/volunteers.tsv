@@ -1,0 +1,11 @@
+Email	Name	Location	PhoneNumber
+julia@example.com	Julia Roberts	Los Angeles	555-123-4567
+tim@example.com	Tim Allen	Pasadena	(213) 555-7890
+susan.lee@example.com	Susan Lee	Long Beach	310-555-2345
+mike_jones@example.com	Mike Jones	San Diego	+1 619 555 1234
+anna.smith@example.com	Anna Smith	San Francisco	4155556789
+invalid@email.com	Invalid Email	Unknown	555-555-5555
+invalid_phone@example.com	Invalid Phone	Nowhere	555-555-1000
+missing_name@example.com	Name	LA	2135551212
+valid.phone@example.com	Valid Phone	Orange County	(714)555-9876
+extra.space@example.com	Extra Space	Sacramento	916 555 4321

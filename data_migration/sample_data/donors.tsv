@@ -1,0 +1,11 @@
+Name	PhoneNumber
+John Doe	213-555-7890
+Mary Jane	(310) 555-1234
+Paul Walker	+1 818 555 4567
+Susan Lee	7145559876
+Tim Taylor	555-1000
+Invalid Phone	555
+Missing Name	
+Valid Number	(213) 555 4321
+Extra Spaces	925  555 3456
+No Phone Provided		

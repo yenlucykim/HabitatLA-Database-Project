@@ -1,0 +1,1505 @@
+ 
+=== Volunteer Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] [OK] Inserted: julia@example.com
+[2025-06-29 18:52:38] [OK] Inserted: tim@example.com
+[2025-06-29 18:52:38] [OK] Inserted: susan.lee@example.com
+[2025-06-29 18:52:38] [OK] Inserted: mike_jones@example.com
+[2025-06-29 18:52:38] [OK] Inserted: anna.smith@example.com
+[2025-06-29 18:52:38] [OK] Inserted: valid.phone@example.com
+[2025-06-29 18:52:38] [OK] Inserted: extra.space@example.com
+[2025-06-29 18:52:38] 
+Volunteer Migration complete: 7 succeeded, 3 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] 
+Volunteer Availability Migration complete: 0 succeeded, 11 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] [OK] Inserted role: Builder
+[2025-06-29 18:52:38] [OK] Inserted role: Planner
+[2025-06-29 18:52:38] [OK] Inserted role: Builder
+[2025-06-29 18:52:38] [OK] Inserted role: Supervisor
+[2025-06-29 18:52:38] [OK] Inserted role: Volunteer Coordinator
+[2025-06-29 18:52:38] 
+Role Migration complete: 5 succeeded, 0 failed.
+ 
+=== Project Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] [OK] Inserted: Habitat Build
+[2025-06-29 18:52:38] [OK] Inserted: Community Cleanup
+[2025-06-29 18:52:38] [OK] Inserted: Youth Outreach
+[2025-06-29 18:52:38] [OK] Inserted: Elderly Assistance
+[2025-06-29 18:52:38] [OK] Inserted: Park Renovation
+[2025-06-29 18:52:38] [OK] Inserted: Empty Dates Test
+[2025-06-29 18:52:38] [OK] Inserted: Missing Name
+[2025-06-29 18:52:38] 
+Project Migration complete: 7 succeeded, 3 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] 
+Volunteer Assignment Migration complete: 0 succeeded, 14 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Service Reports Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] 
+Service Reports Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Donor Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] [OK] Inserted: John Doe
+[2025-06-29 18:52:38] [OK] Inserted: Mary Jane
+[2025-06-29 18:52:38] [OK] Inserted: Paul Walker
+[2025-06-29 18:52:38] [OK] Inserted: Susan Lee
+[2025-06-29 18:52:38] [OK] Inserted: Missing Name
+[2025-06-29 18:52:38] [OK] Inserted: Valid Number
+[2025-06-29 18:52:38] [OK] Inserted: No Phone Provided
+[2025-06-29 18:52:38] 
+Donor Migration complete: 7 succeeded, 3 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 1 on 2023-01-20
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 2 on 2023-02-15
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 3 on 2023-03-10
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 4 on 2023-04-05
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 5 on 2023-05-01
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 99 on 2023-07-10
+[2025-06-29 18:52:38] [OK] Inserted donation: Donor 4 on 2023-09-15
+[2025-06-29 18:52:38] 
+Donation Migration complete: 7 succeeded, 3 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: True) ===
+[2025-06-29 18:52:38] 
+Donation Project Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 18:52:38] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] [OK] Inserted: julia@example.com
+[2025-06-29 18:53:41] [OK] Inserted: tim@example.com
+[2025-06-29 18:53:41] [OK] Inserted: susan.lee@example.com
+[2025-06-29 18:53:41] [OK] Inserted: mike_jones@example.com
+[2025-06-29 18:53:41] [OK] Inserted: anna.smith@example.com
+[2025-06-29 18:53:41] [OK] Inserted: invalid@email.com
+[2025-06-29 18:53:41] [OK] Inserted: invalid_phone@example.com
+[2025-06-29 18:53:41] [OK] Inserted: missing_name@example.com
+[2025-06-29 18:53:41] [OK] Inserted: valid.phone@example.com
+[2025-06-29 18:53:41] [OK] Inserted: extra.space@example.com
+[2025-06-29 18:53:41] 
+Volunteer Migration complete: 10 succeeded, 0 failed.
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] 
+Volunteer Availability Migration complete: 0 succeeded, 11 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] [OK] Inserted role: Builder
+[2025-06-29 18:53:41] [OK] Inserted role: Planner
+[2025-06-29 18:53:41] [OK] Inserted role: Supervisor
+[2025-06-29 18:53:41] [OK] Inserted role: Volunteer Coordinator
+[2025-06-29 18:53:41] 
+Role Migration complete: 4 succeeded, 1 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Project Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] [OK] Inserted: Habitat Build
+[2025-06-29 18:53:41] [OK] Inserted: Community Cleanup
+[2025-06-29 18:53:41] [OK] Inserted: Youth Outreach
+[2025-06-29 18:53:41] [OK] Inserted: Elderly Assistance
+[2025-06-29 18:53:41] [OK] Inserted: Park Renovation
+[2025-06-29 18:53:41] [OK] Inserted: Empty Dates Test
+[2025-06-29 18:53:41] [OK] Inserted: Missing Name
+[2025-06-29 18:53:41] 
+Project Migration complete: 7 succeeded, 3 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] 
+Volunteer Assignment Migration complete: 0 succeeded, 14 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Service Reports Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] 
+Service Reports Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Donor Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] [OK] Inserted: John Doe
+[2025-06-29 18:53:41] [OK] Inserted: Mary Jane
+[2025-06-29 18:53:41] [OK] Inserted: Paul Walker
+[2025-06-29 18:53:41] [OK] Inserted: Susan Lee
+[2025-06-29 18:53:41] [OK] Inserted: Missing Name
+[2025-06-29 18:53:41] [OK] Inserted: Valid Number
+[2025-06-29 18:53:41] [OK] Inserted: No Phone Provided
+[2025-06-29 18:53:41] 
+Donor Migration complete: 7 succeeded, 3 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] [OK] Inserted donation: Donor 1 on 2023-01-20
+[2025-06-29 18:53:41] [OK] Inserted donation: Donor 2 on 2023-02-15
+[2025-06-29 18:53:41] [OK] Inserted donation: Donor 3 on 2023-03-10
+[2025-06-29 18:53:41] [OK] Inserted donation: Donor 4 on 2023-04-05
+[2025-06-29 18:53:41] [OK] Inserted donation: Donor 5 on 2023-05-01
+[2025-06-29 18:53:41] [OK] Inserted donation: Donor 4 on 2023-09-15
+[2025-06-29 18:53:41] 
+Donation Migration complete: 6 succeeded, 4 failed.
+[2025-06-29 18:53:41] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: False) ===
+[2025-06-29 18:53:41] [OK] Inserted DonationProject (DonationID=1, ProjectID=1)
+[2025-06-29 18:53:41] [OK] Inserted DonationProject (DonationID=2, ProjectID=2)
+[2025-06-29 18:53:41] [OK] Inserted DonationProject (DonationID=3, ProjectID=3)
+[2025-06-29 18:53:42] [OK] Inserted DonationProject (DonationID=4, ProjectID=4)
+[2025-06-29 18:53:42] [OK] Inserted DonationProject (DonationID=5, ProjectID=5)
+[2025-06-29 18:53:42] 
+Donation Project Migration complete: 5 succeeded, 5 failed.
+[2025-06-29 18:53:42] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] 
+Volunteer Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 1: Monday Morning
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 1: Tuesday Afternoon
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 2: Wednesday Morning
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 2: Thursday Afternoon
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 3: Friday Morning
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 4: Monday Afternoon
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 7: Friday Morning
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 8: Monday Afternoon
+[2025-06-29 19:09:26] [OK] Inserted availability for Volunteer 9: Tuesday Morning
+[2025-06-29 19:09:26] 
+Volunteer Availability Migration complete: 9 succeeded, 2 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] 
+Role Migration complete: 0 succeeded, 5 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Project Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] 
+Project Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 1
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 2
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 3
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 4
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 5
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 6
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 7
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 8
+[2025-06-29 19:09:26] [OK] Inserted VolunteerAssignment for Volunteer 9
+[2025-06-29 19:09:26] 
+Volunteer Assignment Migration complete: 9 succeeded, 5 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Service Reports Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] [OK] Inserted service report for AssignmentID 1
+[2025-06-29 19:09:26] [OK] Inserted service report for AssignmentID 2
+[2025-06-29 19:09:26] [OK] Inserted service report for AssignmentID 3
+[2025-06-29 19:09:26] [OK] Inserted service report for AssignmentID 7
+[2025-06-29 19:09:26] [OK] Inserted service report for AssignmentID 9
+[2025-06-29 19:09:26] 
+Service Reports Migration complete: 5 succeeded, 5 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Donor Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] 
+Donor Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] 
+Donation Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: False) ===
+[2025-06-29 19:09:26] 
+Donation Project Migration complete: 0 succeeded, 10 failed.
+[2025-06-29 19:09:26] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Migration (Dry Run: False) ===
+[2025-06-30 20:55:47] 
+Volunteer Migration complete: 0 succeeded, 148 failed.
+[2025-06-30 20:55:47] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 20:55:47] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 20:55:47] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: False) ===
+[2025-06-30 20:55:47] [OK] Inserted role: Construction Volunteer
+[2025-06-30 20:55:47] [OK] Inserted role: Team Leader
+[2025-06-30 20:55:47] [OK] Inserted role: Site Coordinator
+[2025-06-30 20:55:47] [OK] Inserted role: Logistics Assistant
+[2025-06-30 20:55:47] [OK] Inserted role: Safety Supervisor
+[2025-06-30 20:55:47] 
+Role Migration complete: 5 succeeded, 0 failed.
+ 
+=== Project Migration (Dry Run: False) ===
+[2025-06-30 20:55:47] 
+Project Migration complete: 0 succeeded, 15 failed.
+[2025-06-30 20:55:47] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: False) ===
+ 
+=== Volunteer Migration (Dry Run: False) ===
+[2025-06-30 20:58:55] [OK] Inserted: slepope0@sohu.com
+[2025-06-30 20:58:55] [OK] Inserted: ekilgallen1@zdnet.com
+[2025-06-30 20:58:55] [OK] Inserted: vstanden2@elegantthemes.com
+[2025-06-30 20:58:55] [OK] Inserted: amcteer3@google.com
+[2025-06-30 20:58:55] [OK] Inserted: jgriswood4@yahoo.com
+[2025-06-30 20:58:55] [OK] Inserted: imcgrail5@51.la
+[2025-06-30 20:58:55] [OK] Inserted: wperfili6@amazon.de
+[2025-06-30 20:58:55] [OK] Inserted: tbunclark7@de.vu
+[2025-06-30 20:58:55] [OK] Inserted: dbellefonte8@scribd.com
+[2025-06-30 20:58:55] [OK] Inserted: cstaziker9@wikia.com
+[2025-06-30 20:58:55] [OK] Inserted: ajandaka@smh.com.au
+[2025-06-30 20:58:55] [OK] Inserted: abattershallb@posterous.com
+[2025-06-30 20:58:55] [OK] Inserted: ogullyc@home.pl
+[2025-06-30 20:58:55] [OK] Inserted: lrapportd@noaa.gov
+[2025-06-30 20:58:55] [OK] Inserted: dovershotte@businessinsider.com
+[2025-06-30 20:58:55] [OK] Inserted: nrylesf@instagram.com
+[2025-06-30 20:58:55] [OK] Inserted: bconnerlyg@weather.com
+[2025-06-30 20:58:55] [OK] Inserted: swalesah@yahoo.co.jp
+[2025-06-30 20:58:55] [OK] Inserted: mgodmeri@123-reg.co.uk
+[2025-06-30 20:58:55] [OK] Inserted: cfeveryearj@php.net
+[2025-06-30 20:58:55] [OK] Inserted: rbarhamsk@domainmarket.com
+[2025-06-30 20:58:55] [OK] Inserted: bpesslerl@addthis.com
+[2025-06-30 20:58:55] [OK] Inserted: agaythwaitem@nyu.edu
+[2025-06-30 20:58:55] [OK] Inserted: ccowelln@a8.net
+[2025-06-30 20:58:55] [OK] Inserted: ctemplemano@nydailynews.com
+[2025-06-30 20:58:55] [OK] Inserted: mberkeleyp@sfgate.com
+[2025-06-30 20:58:55] [OK] Inserted: gbowermanq@artisteer.com
+[2025-06-30 20:58:55] [OK] Inserted: lprotheror@printfriendly.com
+[2025-06-30 20:58:55] [OK] Inserted: nheinickes@jigsy.com
+[2025-06-30 20:58:55] [OK] Inserted: cromerilt@uol.com.br
+[2025-06-30 20:58:55] [OK] Inserted: zfilbyu@cloudflare.com
+[2025-06-30 20:58:55] [OK] Inserted: rfaheyv@census.gov
+[2025-06-30 20:58:55] [OK] Inserted: lcastardw@yale.edu
+[2025-06-30 20:58:55] [OK] Inserted: ckoschekx@slate.com
+[2025-06-30 20:58:55] [OK] Inserted: dagastinay@jalbum.net
+[2025-06-30 20:58:55] [OK] Inserted: jcourtesez@walmart.com
+[2025-06-30 20:58:55] [OK] Inserted: wdmitrovic10@examiner.com
+[2025-06-30 20:58:55] [OK] Inserted: okingaby11@g.co
+[2025-06-30 20:58:55] [OK] Inserted: jklais12@acquirethisname.com
+[2025-06-30 20:58:55] [OK] Inserted: lbuttle13@washington.edu
+[2025-06-30 20:58:55] [OK] Inserted: sbonallick14@weibo.com
+[2025-06-30 20:58:55] [OK] Inserted: wciotto15@prlog.org
+[2025-06-30 20:58:55] [OK] Inserted: bschollick16@ucla.edu
+[2025-06-30 20:58:55] [OK] Inserted: bpaviour17@newsvine.com
+[2025-06-30 20:58:55] [OK] Inserted: lduferie18@icio.us
+[2025-06-30 20:58:55] [OK] Inserted: erabjohns19@icq.com
+[2025-06-30 20:58:55] [OK] Inserted: jsket1a@jigsy.com
+[2025-06-30 20:58:55] [OK] Inserted: jshanks1b@china.com.cn
+[2025-06-30 20:58:55] [OK] Inserted: hfitchell1c@ucoz.ru
+[2025-06-30 20:58:55] [OK] Inserted: jskyme1d@spotify.com
+[2025-06-30 20:58:55] [OK] Inserted: rmynott1e@w3.org
+[2025-06-30 20:58:55] [OK] Inserted: plumb1f@drupal.org
+[2025-06-30 20:58:55] [OK] Inserted: vplayfair1g@yolasite.com
+[2025-06-30 20:58:55] [OK] Inserted: tgilliland1h@mozilla.com
+[2025-06-30 20:58:55] [OK] Inserted: bshutler1i@nymag.com
+[2025-06-30 20:58:55] [OK] Inserted: mflooks1j@blogs.com
+[2025-06-30 20:58:55] [OK] Inserted: kshadbolt1k@mozilla.com
+[2025-06-30 20:58:55] [OK] Inserted: igloster1l@indiatimes.com
+[2025-06-30 20:58:55] [OK] Inserted: asmuth1m@google.pl
+[2025-06-30 20:58:55] [OK] Inserted: kgallon1n@instagram.com
+[2025-06-30 20:58:55] [OK] Inserted: tpithcock1o@com.com
+[2025-06-30 20:58:55] [OK] Inserted: cfragino1p@gov.uk
+[2025-06-30 20:58:55] [OK] Inserted: kclell1q@amazonaws.com
+[2025-06-30 20:58:55] [OK] Inserted: lberinger1r@shutterfly.com
+[2025-06-30 20:58:55] [OK] Inserted: jbarden1s@shop-pro.jp
+[2025-06-30 20:58:55] [OK] Inserted: frigney1t@mac.com
+[2025-06-30 20:58:55] [OK] Inserted: wgiblin1u@fc2.com
+[2025-06-30 20:58:55] [OK] Inserted: dbutchard1v@bbb.org
+[2025-06-30 20:58:55] [OK] Inserted: dbronot1w@4shared.com
+[2025-06-30 20:58:55] [OK] Inserted: wmansfield1x@ca.gov
+[2025-06-30 20:58:55] [OK] Inserted: irookes1y@bloomberg.com
+[2025-06-30 20:58:55] [OK] Inserted: lomrod1z@indiegogo.com
+[2025-06-30 20:58:55] [OK] Inserted: rbenley20@ox.ac.uk
+[2025-06-30 20:58:55] [OK] Inserted: cpauwel21@studiopress.com
+[2025-06-30 20:58:55] [OK] Inserted: dbynert22@newsvine.com
+[2025-06-30 20:58:55] [OK] Inserted: akempson23@bloglines.com
+[2025-06-30 20:58:55] [OK] Inserted: sbeccero24@soundcloud.com
+[2025-06-30 20:58:55] [OK] Inserted: phymans25@nhs.uk
+[2025-06-30 20:58:55] [OK] Inserted: ttibb26@globo.com
+[2025-06-30 20:58:55] [OK] Inserted: bgodthaab27@va.gov
+[2025-06-30 20:58:55] [OK] Inserted: nleggen28@histats.com
+[2025-06-30 20:58:55] [OK] Inserted: rbraithwait29@miitbeian.gov.cn
+[2025-06-30 20:58:55] [OK] Inserted: candren2a@umn.edu
+[2025-06-30 20:58:55] [OK] Inserted: eurch2b@google.com.hk
+[2025-06-30 20:58:55] [OK] Inserted: bobin2c@auda.org.au
+[2025-06-30 20:58:55] [OK] Inserted: gselcraig2d@adobe.com
+[2025-06-30 20:58:55] [OK] Inserted: dollarenshaw2e@imdb.com
+[2025-06-30 20:58:55] [OK] Inserted: srustidge2f@blogger.com
+[2025-06-30 20:58:55] [OK] Inserted: sendecott2g@salon.com
+[2025-06-30 20:58:55] [OK] Inserted: ayoxall2h@geocities.com
+[2025-06-30 20:58:55] [OK] Inserted: sbythell2i@mac.com
+[2025-06-30 20:58:55] [OK] Inserted: dotowey2j@technorati.com
+[2025-06-30 20:58:55] [OK] Inserted: cfairholme2k@addtoany.com
+[2025-06-30 20:58:55] [OK] Inserted: bmargrett2l@washington.edu
+[2025-06-30 20:58:55] [OK] Inserted: kfearnehough2m@slashdot.org
+[2025-06-30 20:58:55] [OK] Inserted: ssiret2n@360.cn
+[2025-06-30 20:58:55] [OK] Inserted: asealand2o@typepad.com
+[2025-06-30 20:58:55] [OK] Inserted: sgooms2p@twitpic.com
+[2025-06-30 20:58:55] [OK] Inserted: hroscrigg2q@mapy.cz
+[2025-06-30 20:58:55] [OK] Inserted: mfewell2r@columbia.edu
+[2025-06-30 20:58:55] [OK] Inserted: epavie2s@networksolutions.com
+[2025-06-30 20:58:56] [OK] Inserted: babramsky2t@amazon.com
+[2025-06-30 20:58:56] [OK] Inserted: lsurgeon2u@apple.com
+[2025-06-30 20:58:56] [OK] Inserted: prevell2v@house.gov
+[2025-06-30 20:58:56] [OK] Inserted: rarnaldo2w@earthlink.net
+[2025-06-30 20:58:56] [OK] Inserted: aserck2x@skype.com
+[2025-06-30 20:58:56] [OK] Inserted: eocaherny2y@github.io
+[2025-06-30 20:58:56] [OK] Inserted: tthoumasson2z@slate.com
+[2025-06-30 20:58:56] [OK] Inserted: ikemer30@so-net.ne.jp
+[2025-06-30 20:58:56] [OK] Inserted: cfurze31@independent.co.uk
+[2025-06-30 20:58:56] [OK] Inserted: ywigfield32@digg.com
+[2025-06-30 20:58:56] [OK] Inserted: jdaeth33@pinterest.com
+[2025-06-30 20:58:56] [OK] Inserted: nkatz34@google.de
+[2025-06-30 20:58:56] [OK] Inserted: aely35@addtoany.com
+[2025-06-30 20:58:56] [OK] Inserted: jwarwick36@psu.edu
+[2025-06-30 20:58:56] [OK] Inserted: fraimbauld37@soundcloud.com
+[2025-06-30 20:58:56] [OK] Inserted: tferriere38@flavors.me
+[2025-06-30 20:58:56] [OK] Inserted: djenyns39@nydailynews.com
+[2025-06-30 20:58:56] [OK] Inserted: utregenza3a@mac.com
+[2025-06-30 20:58:56] [OK] Inserted: khousiaux3b@ox.ac.uk
+[2025-06-30 20:58:56] [OK] Inserted: ajosovich3c@nytimes.com
+[2025-06-30 20:58:56] [OK] Inserted: canwell3d@xrea.com
+[2025-06-30 20:58:56] [OK] Inserted: dmassinger3e@sakura.ne.jp
+[2025-06-30 20:58:56] [OK] Inserted: ntheml3f@g.co
+[2025-06-30 20:58:56] [OK] Inserted: geveringham3g@macromedia.com
+[2025-06-30 20:58:56] [OK] Inserted: kmoralee3h@trellian.com
+[2025-06-30 20:58:56] [OK] Inserted: hcoleson3i@163.com
+[2025-06-30 20:58:56] [OK] Inserted: cbenitez3j@prlog.org
+[2025-06-30 20:58:56] [OK] Inserted: eelph3k@hexun.com
+[2025-06-30 20:58:56] [OK] Inserted: bklimentov3l@accuweather.com
+[2025-06-30 20:58:56] [OK] Inserted: dabbey3m@dagondesign.com
+[2025-06-30 20:58:56] [OK] Inserted: lboddy3n@statcounter.com
+[2025-06-30 20:58:56] [OK] Inserted: rdebow3o@amazon.co.jp
+[2025-06-30 20:58:56] [OK] Inserted: dsaggs3p@google.co.uk
+[2025-06-30 20:58:56] [OK] Inserted: cmacaindreis3q@amazonaws.com
+[2025-06-30 20:58:56] [OK] Inserted: pmatley3r@tiny.cc
+[2025-06-30 20:58:56] [OK] Inserted: wtwinborough3s@reuters.com
+[2025-06-30 20:58:56] [OK] Inserted: pattiwill3t@canalblog.com
+[2025-06-30 20:58:56] [OK] Inserted: mallbrook3u@hao123.com
+[2025-06-30 20:58:56] [OK] Inserted: rketley3v@sourceforge.net
+[2025-06-30 20:58:56] [OK] Inserted: msowle3w@huffingtonpost.com
+[2025-06-30 20:58:56] [OK] Inserted: acanete3x@narod.ru
+[2025-06-30 20:58:56] [OK] Inserted: cbrydson3y@earthlink.net
+[2025-06-30 20:58:56] [OK] Inserted: jgoatman3z@dyndns.org
+[2025-06-30 20:58:56] [OK] Inserted: dbenoit40@gravatar.com
+[2025-06-30 20:58:56] [OK] Inserted: dpitcher41@simplemachines.org
+[2025-06-30 20:58:56] [OK] Inserted: gmee42@hugedomains.com
+[2025-06-30 20:58:56] [OK] Inserted: pcomellini43@purevolume.com
+[2025-06-30 20:58:56] 
+Volunteer Migration complete: 148 succeeded, 0 failed.
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 1: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 3: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 15: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 18: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 21: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 23: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 26: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 37: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 40: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 41: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 42: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 44: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 47: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 50: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 58: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 63: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 65: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 68: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 74: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 78: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 79: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 86: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 90: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 91: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 95: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 101: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 102: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 104: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 112: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 117: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 122: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 124: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 130: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 139: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 140: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 141: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 143: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 144: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 3: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 4: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 7: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 15: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 16: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 19: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 24: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 27: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 28: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 29: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 37: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 38: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 45: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 46: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 53: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 61: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 62: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 64: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 67: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 68: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 71: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 75: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 77: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 81: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 82: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 83: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 8: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 14: Wednesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 17: Wednesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 8: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 9: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 12: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 14: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 24: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 29: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 32: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 33: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 43: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 45: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 51: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 52: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 53: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 56: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 59: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 62: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 64: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 66: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 69: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 76: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 88: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 89: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 93: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 94: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 98: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 99: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 105: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 110: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 114: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 120: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 135: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 1: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 2: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 5: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 6: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 11: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 17: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 23: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 30: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 33: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 35: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 39: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 41: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 44: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 48: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 49: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 50: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 52: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 55: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 85: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 87: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 6: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 10: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 20: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 21: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 22: Tuesday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 27: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 28: Tuesday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 2: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 6: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 10: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 11: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 16: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 17: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 19: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 20: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 31: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 35: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 46: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 54: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 61: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 75: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 80: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 87: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 92: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 96: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 106: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 109: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 111: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 118: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 125: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 127: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 128: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 129: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 132: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 133: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 134: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 136: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 137: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 8: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 13: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 14: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 20: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 25: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 36: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 43: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 47: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 51: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 57: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 59: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 63: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 66: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 69: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 70: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 73: Thursday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 74: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 84: Thursday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 4: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 13: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 25: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 27: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 5: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 7: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 9: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 11: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 12: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 15: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 16: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 18: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 19: Monday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 29: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 30: Monday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 5: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 7: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 22: Friday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 28: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 34: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 36: Friday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 39: Friday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 55: Friday Afternoon
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 57: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 67: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 72: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 77: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 82: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 85: Friday Morning
+[2025-06-30 20:58:56] [OK] Inserted availability for Volunteer 103: Friday Morning
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 107: Friday Morning
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 108: Friday Morning
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 119: Friday Afternoon
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 126: Friday Morning
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 142: Friday Afternoon
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 146: Friday Afternoon
+[2025-06-30 20:58:57] [OK] Inserted availability for Volunteer 147: Friday Morning
+[2025-06-30 20:58:57] 
+Volunteer Availability Migration complete: 211 succeeded, 55 failed.
+[2025-06-30 20:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: False) ===
+[2025-06-30 20:58:57] 
+Role Migration complete: 0 succeeded, 5 failed.
+[2025-06-30 20:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Project Migration (Dry Run: False) ===
+[2025-06-30 20:58:57] [OK] Inserted: Hope on Hillcrest
+[2025-06-30 20:58:57] [OK] Inserted: Unity Villas
+[2025-06-30 20:58:57] [OK] Inserted: Casa del Sol
+[2025-06-30 20:58:57] [OK] Inserted: Cornerstone Heights
+[2025-06-30 20:58:57] [OK] Inserted: New Leaf Haven
+[2025-06-30 20:58:57] [OK] Inserted: Brighter Days Bungalows
+[2025-06-30 20:58:57] [OK] Inserted: Harbor Hope Project
+[2025-06-30 20:58:57] [OK] Inserted: The Elm Street Renewal
+[2025-06-30 20:58:57] [OK] Inserted: Sunrise Pathway
+[2025-06-30 20:58:57] [OK] Inserted: Legacy Lane
+[2025-06-30 20:58:57] [OK] Inserted: Serenity Row
+[2025-06-30 20:58:57] [OK] Inserted: Willow Roots Build
+[2025-06-30 20:58:57] [OK] Inserted: Heartwood Commons
+[2025-06-30 20:58:57] [OK] Inserted: Resilient Ridge
+[2025-06-30 20:58:57] [OK] Inserted: Azalea Renewal
+[2025-06-30 20:58:57] 
+Project Migration complete: 15 succeeded, 0 failed.
+ 
+=== Volunteer Assignment Migration (Dry Run: False) ===
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:03:32] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:03:32] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: False) ===
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 1
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 1
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 1
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 2
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 2
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 3
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 3
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 3
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 4
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 4
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 5
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 6
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 6
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 6
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 9
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 10
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 10
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 11
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 11
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 12
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 13
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 13
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 14
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 14
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 14
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 15
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 15
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 16
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 16
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 17
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 17
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 17
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 18
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 19
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 19
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 20
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 20
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 20
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 21
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 21
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 21
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 22
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 23
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 23
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 23
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 24
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 24
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 24
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 25
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 25
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 26
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 26
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 27
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 27
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 27
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 28
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 28
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 29
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 29
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 30
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 31
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 31
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 32
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 32
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 33
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 33
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 35
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 35
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 36
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 37
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 37
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 38
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 39
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 40
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 41
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 41
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 42
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 43
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 43
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 44
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 44
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 45
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 45
+[2025-06-30 21:03:32] [OK] Inserted VolunteerAssignment for Volunteer 46
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 46
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 47
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 47
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 48
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 49
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 50
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 50
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 51
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 51
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 52
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 52
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 53
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 53
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 54
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 54
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 55
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 56
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 56
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 57
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 58
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 59
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 59
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 61
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 61
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 62
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 62
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 63
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 63
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 64
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 64
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 65
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 66
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 66
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 67
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 68
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 68
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 69
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 69
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 70
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 71
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 73
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 74
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 74
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 75
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 75
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 76
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 77
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 78
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 79
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 80
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 81
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 82
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 83
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 84
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 85
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 86
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 87
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 87
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 88
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 88
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 89
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 90
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 91
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 92
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 93
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 94
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 95
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 96
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 98
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 99
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 101
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 102
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 104
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 105
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 106
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 109
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 110
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 111
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 112
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 114
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 117
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 118
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 120
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 122
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 124
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 125
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 127
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 128
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 129
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 130
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 132
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 133
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 134
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 135
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 136
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 137
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 139
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 140
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 141
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 143
+[2025-06-30 21:03:33] [OK] Inserted VolunteerAssignment for Volunteer 144
+[2025-06-30 21:03:33] 
+Volunteer Assignment Migration complete: 185 succeeded, 4 failed.
+[2025-06-30 21:03:33] Errors written to 'logs/migration_errors.log'
+ 
+=== Service Reports Migration (Dry Run: False) ===
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 184
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 146
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 99
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 177
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 167
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 65
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 112
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 118
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 74
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 147
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 154
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 70
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 139
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 92
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 62
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 96
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 71
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 22
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 32
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 165
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 67
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 142
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 59
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 86
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 124
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 77
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 43
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 52
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 150
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 114
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 7
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 151
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 24
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 168
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 172
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 93
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 91
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 29
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 46
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 120
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 84
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 176
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 100
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 166
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 156
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 97
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 58
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 3
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 19
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 1
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 8
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 155
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 152
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 135
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 36
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 90
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 175
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 123
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 38
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 134
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 117
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 149
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 23
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 50
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 57
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 16
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 31
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 104
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 6
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 108
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 5
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 141
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 173
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 127
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 116
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 107
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 94
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 161
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 53
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 110
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 125
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 37
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 51
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 132
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 143
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 128
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 185
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 183
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 158
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 35
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 60
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 87
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 144
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 121
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 41
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 101
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 28
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 42
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 76
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 133
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 12
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 83
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 113
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 105
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 78
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 39
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 174
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 81
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 119
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 21
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 163
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 44
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 122
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 157
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 4
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 140
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 162
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 40
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 47
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 178
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 160
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 138
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 115
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 20
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 68
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 30
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 63
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 9
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 179
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 153
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 137
+[2025-06-30 21:03:33] [OK] Inserted service report for AssignmentID 106
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 102
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 98
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 13
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 131
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 171
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 180
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 17
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 48
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 15
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 55
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 33
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 49
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 95
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 26
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 136
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 18
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 69
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 85
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 170
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 82
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 148
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 45
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 145
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 10
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 109
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 2
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 64
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 164
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 181
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 14
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 126
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 11
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 103
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 79
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 89
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 27
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 25
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 169
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 129
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 159
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 34
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 111
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 66
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 182
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 61
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 80
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 75
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 56
+[2025-06-30 21:03:34] [OK] Inserted service report for AssignmentID 72
+[2025-06-30 21:03:34] 
+Service Reports Migration complete: 181 succeeded, 8 failed.
+[2025-06-30 21:03:34] Errors written to 'logs/migration_errors.log'
+ 
+=== Donor Migration (Dry Run: False) ===
+[2025-06-30 21:03:34] [OK] Inserted: Vivianne Crawford
+[2025-06-30 21:03:34] [OK] Inserted: Dulcia Venour
+[2025-06-30 21:03:34] [OK] Inserted: Marcelle Mustoe
+[2025-06-30 21:03:34] [OK] Inserted: Babb Moens
+[2025-06-30 21:03:34] [OK] Inserted: Romain Faill
+[2025-06-30 21:03:34] [OK] Inserted: Gonzalo Shead
+[2025-06-30 21:03:34] [OK] Inserted: Maia Flintoff
+[2025-06-30 21:03:34] [OK] Inserted: Elmo Greenhalf
+[2025-06-30 21:03:34] [OK] Inserted: Con Adamski
+[2025-06-30 21:03:34] [OK] Inserted: Jocelyn Zarb
+[2025-06-30 21:03:34] [OK] Inserted: Bil Aherne
+[2025-06-30 21:03:34] [OK] Inserted: Conrade McConway
+[2025-06-30 21:03:34] [OK] Inserted: Mandy Beirne
+[2025-06-30 21:03:34] [OK] Inserted: Clerkclaude Beekmann
+[2025-06-30 21:03:34] [OK] Inserted: Mufinella Emons
+[2025-06-30 21:03:34] [OK] Inserted: Freda MacFadyen
+[2025-06-30 21:03:34] [OK] Inserted: Jarred Niche
+[2025-06-30 21:03:34] [OK] Inserted: Grissel Haps
+[2025-06-30 21:03:34] [OK] Inserted: Celene McVicker
+[2025-06-30 21:03:34] [OK] Inserted: Truda Seago
+[2025-06-30 21:03:34] [OK] Inserted: Reine Fosken
+[2025-06-30 21:03:34] [OK] Inserted: Pearline Whitehorn
+[2025-06-30 21:03:34] [OK] Inserted: Guntar Graves
+[2025-06-30 21:03:34] [OK] Inserted: Janifer Stewart
+[2025-06-30 21:03:34] [OK] Inserted: Joyce Dorsett
+[2025-06-30 21:03:34] [OK] Inserted: Pippa Ashall
+[2025-06-30 21:03:34] [OK] Inserted: Tiphany Jirzik
+[2025-06-30 21:03:34] [OK] Inserted: Sharron Simonato
+[2025-06-30 21:03:34] [OK] Inserted: Lionello Campanelle
+[2025-06-30 21:03:34] [OK] Inserted: Valentia De Vries
+[2025-06-30 21:03:34] [OK] Inserted: Falito Cay
+[2025-06-30 21:03:34] [OK] Inserted: Warner Shaxby
+[2025-06-30 21:03:34] [OK] Inserted: Lila Kindell
+[2025-06-30 21:03:34] [OK] Inserted: Kerby Thairs
+[2025-06-30 21:03:34] [OK] Inserted: Marcy Martonfi
+[2025-06-30 21:03:34] [OK] Inserted: Carolyne Osgood
+[2025-06-30 21:03:34] [OK] Inserted: Clotilda Swan
+[2025-06-30 21:03:34] [OK] Inserted: Davina Loads
+[2025-06-30 21:03:34] [OK] Inserted: Boot Haller
+[2025-06-30 21:03:34] [OK] Inserted: Benjamin Perillo
+[2025-06-30 21:03:34] [OK] Inserted: Elijah Roubay
+[2025-06-30 21:03:34] [OK] Inserted: Benedicto Targett
+[2025-06-30 21:03:34] [OK] Inserted: Alayne Flarity
+[2025-06-30 21:03:34] [OK] Inserted: Lexine Bools
+[2025-06-30 21:03:34] [OK] Inserted: Francklin Weal
+[2025-06-30 21:03:34] [OK] Inserted: Arlee Chedzoy
+[2025-06-30 21:03:34] [OK] Inserted: Pembroke Tenby
+[2025-06-30 21:03:34] [OK] Inserted: Anabel Moreland
+[2025-06-30 21:03:34] [OK] Inserted: Filberto Doig
+[2025-06-30 21:03:34] [OK] Inserted: Lurette Diego
+[2025-06-30 21:03:34] [OK] Inserted: Gaylord Woodland
+[2025-06-30 21:03:34] [OK] Inserted: Temple Thulborn
+[2025-06-30 21:03:34] [OK] Inserted: Holly Dancy
+[2025-06-30 21:03:34] [OK] Inserted: Donovan Wagon
+[2025-06-30 21:03:34] [OK] Inserted: Mercie Pengelly
+[2025-06-30 21:03:34] [OK] Inserted: Abdel McEntagart
+[2025-06-30 21:03:34] 
+Donor Migration complete: 56 succeeded, 0 failed.
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-30 21:03:34] 
+Donation Migration complete: 0 succeeded, 96 failed.
+[2025-06-30 21:03:34] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: False) ===
+[2025-06-30 21:03:34] 
+Donation Project Migration complete: 0 succeeded, 90 failed.
+[2025-06-30 21:03:34] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:05:42] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:05:42] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-30 21:05:42] 
+Donation Migration complete: 0 succeeded, 96 failed.
+[2025-06-30 21:05:42] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:08:59] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:08:59] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-30 21:08:59] 
+Donation Migration complete: 0 succeeded, 96 failed.
+[2025-06-30 21:08:59] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:10:33] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:10:33] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-30 21:10:33] 
+Donation Migration complete: 0 succeeded, 96 failed.
+[2025-06-30 21:10:33] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:21:31] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:21:31] Errors written to 'logs/migration_errors.log'
+ 
+=== Project Migration (Dry Run: False) ===
+[2025-06-30 21:21:31] [OK] Updated: Hope on Hillcrest
+[2025-06-30 21:21:31] [OK] Updated: Unity Villas
+[2025-06-30 21:21:31] [OK] Updated: Casa del Sol
+[2025-06-30 21:21:31] [OK] Updated: Cornerstone Heights
+[2025-06-30 21:21:31] [OK] Updated: New Leaf Haven
+[2025-06-30 21:21:31] [OK] Updated: Brighter Days Bungalows
+[2025-06-30 21:21:31] [OK] Updated: Harbor Hope Project
+[2025-06-30 21:21:31] [OK] Updated: The Elm Street Renewal
+[2025-06-30 21:21:31] [OK] Updated: Sunrise Pathway
+[2025-06-30 21:21:31] [OK] Updated: Legacy Lane
+[2025-06-30 21:21:31] [OK] Updated: Serenity Row
+[2025-06-30 21:21:31] [OK] Updated: Willow Roots Build
+[2025-06-30 21:21:31] [OK] Updated: Heartwood Commons
+[2025-06-30 21:21:31] [OK] Updated: Resilient Ridge
+[2025-06-30 21:21:31] [OK] Updated: Azalea Renewal
+[2025-06-30 21:21:31] 
+Project Migration complete: 15 succeeded, 0 failed.
+ 
+=== Donation Migration (Dry Run: False) ===
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 1 on 2024-10-15
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 5 on 2025-02-02
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 7 on 2024-12-10
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 10 on 2023-01-28
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 8 on 2025-04-28
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 33 on 2023-02-22
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 40 on 2024-09-23
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 30 on 2025-06-05
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 25 on 2024-02-12
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 9 on 2023-11-18
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 11 on 2024-01-29
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 19 on 2024-04-22
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 8 on 2024-03-25
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 23 on 2024-05-13
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 27 on 2025-01-23
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 44 on 2022-09-29
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 42 on 2024-10-05
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 21 on 2023-11-02
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 19 on 2024-08-19
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 6 on 2025-01-19
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 28 on 2024-03-10
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 3 on 2025-01-31
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 28 on 2024-11-12
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 31 on 2024-10-29
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 24 on 2025-06-17
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 5 on 2024-03-07
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 10 on 2024-11-05
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 15 on 2024-10-18
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 17 on 2025-05-29
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 4 on 2024-07-23
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 8 on 2024-07-08
+[2025-06-30 21:21:31] [OK] Inserted donation: Donor 10 on 2022-11-04
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 5 on 2025-05-12
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 34 on 2023-04-03
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 22 on 2023-10-11
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 36 on 2024-10-06
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 48 on 2024-01-08
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 22 on 2025-03-12
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 46 on 2025-01-02
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 7 on 2024-11-12
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 17 on 2024-07-26
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 45 on 2024-10-12
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 13 on 2025-05-06
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 15 on 2024-12-08
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 29 on 2023-11-26
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 9 on 2023-05-27
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 2 on 2025-05-04
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 13 on 2023-09-24
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 14 on 2024-07-01
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 3 on 2025-04-15
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 21 on 2025-06-25
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 53 on 2025-02-21
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 26 on 2024-03-01
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 11 on 2024-12-28
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 43 on 2025-06-16
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 7 on 2025-02-13
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 39 on 2024-05-19
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 2 on 2024-07-31
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 4 on 2024-10-06
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 27 on 2025-02-03
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 12 on 2024-03-30
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 55 on 2024-02-10
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 1 on 2023-11-09
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 32 on 2024-08-19
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 47 on 2024-07-10
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 30 on 2023-05-22
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 25 on 2024-04-14
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 50 on 2024-04-24
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 16 on 2023-10-12
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 18 on 2024-03-11
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 23 on 2022-09-24
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 20 on 2023-07-24
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 37 on 2022-11-16
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 26 on 2025-04-23
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 38 on 2025-04-22
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 18 on 2024-08-09
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 6 on 2025-04-29
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 9 on 2023-10-04
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 24 on 2024-04-02
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 49 on 2024-06-26
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 14 on 2024-12-11
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 52 on 2024-11-21
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 20 on 2024-07-30
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 41 on 2023-07-12
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 29 on 2024-09-27
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 6 on 2025-03-05
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 4 on 2024-12-24
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 3 on 2024-09-25
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 1 on 2024-02-07
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 56 on 2024-10-10
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 12 on 2024-10-27
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 16 on 2025-01-25
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 51 on 2024-10-18
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 2 on 2024-11-10
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 35 on 2025-06-20
+[2025-06-30 21:21:32] [OK] Inserted donation: Donor 54 on 2023-12-23
+[2025-06-30 21:21:32] 
+Donation Migration complete: 96 succeeded, 0 failed.
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:22:13] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:22:13] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: False) ===
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=1, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=1, ProjectID=9)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=1, ProjectID=12)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=2, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=3, ProjectID=7)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=4, ProjectID=10)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=4, ProjectID=5)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=5, ProjectID=13)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=5, ProjectID=8)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=6, ProjectID=11)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=6, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=7, ProjectID=14)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=8, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=9, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=10, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=10, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=10, ProjectID=15)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=11, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=12, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=13, ProjectID=7)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=14, ProjectID=13)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=14, ProjectID=14)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=15, ProjectID=5)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=16, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=17, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=18, ProjectID=8)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=19, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=20, ProjectID=12)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=21, ProjectID=15)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=22, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=23, ProjectID=7)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=24, ProjectID=10)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=25, ProjectID=11)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=26, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=27, ProjectID=5)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=27, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=28, ProjectID=13)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=29, ProjectID=9)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=30, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=31, ProjectID=12)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=31, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=32, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=33, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=33, ProjectID=5)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=34, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=35, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=36, ProjectID=14)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=37, ProjectID=8)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=38, ProjectID=15)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=39, ProjectID=7)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=40, ProjectID=13)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=41, ProjectID=5)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=42, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=43, ProjectID=14)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=44, ProjectID=12)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=45, ProjectID=9)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=46, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=47, ProjectID=10)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=48, ProjectID=11)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=49, ProjectID=7)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=50, ProjectID=15)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=51, ProjectID=8)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=52, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=53, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=54, ProjectID=9)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=55, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=56, ProjectID=14)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=57, ProjectID=15)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=58, ProjectID=5)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=59, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=60, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=61, ProjectID=12)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=62, ProjectID=8)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=63, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=64, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=65, ProjectID=9)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=66, ProjectID=15)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=67, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=68, ProjectID=13)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=69, ProjectID=10)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=70, ProjectID=7)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=71, ProjectID=1)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=72, ProjectID=11)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=73, ProjectID=3)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=74, ProjectID=14)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=75, ProjectID=2)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=76, ProjectID=13)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=77, ProjectID=4)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=78, ProjectID=6)
+[2025-06-30 21:22:13] [OK] Inserted DonationProject (DonationID=79, ProjectID=15)
+[2025-06-30 21:22:13] 
+Donation Project Migration complete: 90 succeeded, 0 failed.
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:24:40] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-06-30 21:24:40] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 4: Tuesday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 5: Wednesday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 4: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 5: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 15: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 12: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 17: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 20: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 33: Wednesday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 21: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 22: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 22: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 23: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 23: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 26: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 28: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 29: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 31: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 32: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 33: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 34: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 34: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 35: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 36: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 37: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 38: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 39: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 43: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 55: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 56: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 65: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 89: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 90: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 97: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 98: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 99: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 100: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 123: Monday Morning
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 145: Monday Afternoon
+[2025-06-30 21:31:49] [OK] Inserted availability for Volunteer 147: Monday Afternoon
+[2025-06-30 21:31:49] 
+Volunteer Availability Migration complete: 40 succeeded, 226 failed.
+[2025-06-30 21:31:49] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: False) ===
+[2025-07-01 16:43:25] 
+Volunteer Availability Migration complete: 0 succeeded, 266 failed.
+[2025-07-01 16:43:25] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Volunteer Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Volunteer Availability Migration complete: 0 succeeded, 11 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] [OK] Inserted role: Builder
+[2025-07-03 14:55:00] [OK] Inserted role: Planner
+[2025-07-03 14:55:00] [OK] Inserted role: Builder
+[2025-07-03 14:55:00] [OK] Inserted role: Supervisor
+[2025-07-03 14:55:00] [OK] Inserted role: Volunteer Coordinator
+[2025-07-03 14:55:00] 
+Role Migration complete: 5 succeeded, 0 failed.
+ 
+=== Project Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Project Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Volunteer Assignment Migration complete: 0 succeeded, 14 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Service Reports Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Service Reports Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Donor Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Donor Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Donation Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: True) ===
+[2025-07-03 14:55:00] 
+Donation Project Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:55:00] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Volunteer Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Availability Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Volunteer Availability Migration complete: 0 succeeded, 11 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Role Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] [OK] Inserted role: Builder
+[2025-07-03 14:58:57] [OK] Inserted role: Planner
+[2025-07-03 14:58:57] [OK] Inserted role: Builder
+[2025-07-03 14:58:57] [OK] Inserted role: Supervisor
+[2025-07-03 14:58:57] [OK] Inserted role: Volunteer Coordinator
+[2025-07-03 14:58:57] 
+Role Migration complete: 5 succeeded, 0 failed.
+ 
+=== Project Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Project Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Volunteer Assignment Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Volunteer Assignment Migration complete: 0 succeeded, 14 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Service Reports Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Service Reports Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Donor Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Donor Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Donation Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'
+ 
+=== Donation Project Migration (Dry Run: True) ===
+[2025-07-03 14:58:57] 
+Donation Project Migration complete: 0 succeeded, 10 failed.
+[2025-07-03 14:58:57] Errors written to 'logs/migration_errors.log'

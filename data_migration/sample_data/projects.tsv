@@ -1,0 +1,11 @@
+ProjectID	Name	Location	Description	StartDate	EndDate
+1	Habitat Build	Los Angeles	New homes for families	2023-01-15	2023-06-30
+2	Community Cleanup	Long Beach	Neighborhood beautification	2023-03-01	2023-03-31
+3	Youth Outreach	San Diego	Youth mentoring program	2023-02-10	2023-12-15
+4	Elderly Assistance	Pasadena	Support for seniors	2023-05-01	2023-08-30
+5	Park Renovation	Sacramento	Public park upgrades	2023-04-15	2023-09-01
+6	Empty Dates Test	Compton	Testing null dates		
+7	Missing Name	Unknown	Description missing name	2023-01-01	2023-01-31
+8	Invalid StartDate	LA	Bad start date	2023-13-01	2023-06-30
+9	Invalid EndDate	LA	Bad end date	2023-01-01	2023-00-30
+10	Missing Location		Location missing	2023-02-01	2023-04-01

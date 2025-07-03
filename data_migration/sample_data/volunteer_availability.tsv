@@ -1,0 +1,12 @@
+VolunteerID	Day	TimeSlot
+1	Monday	Morning
+1	Tuesday	Afternoon
+2	Wednesday	Morning
+2	Thursday	Afternoon
+3	Friday	Morning
+4	Monday	Afternoon
+5	InvalidDay	Morning
+6	Thursday	InvalidTime
+7	Friday	Morning
+8	Monday	Afternoon
+9	Tuesday	Morning

@@ -38,7 +38,6 @@ The main migration logic is managed through `migration.py` and launched through 
    - Skipped (if duplicate_mode is set to "skip").
 5. All results are logged in either the success log or error log.
 
-View demo: `../demo`
 
 ### Dry Run Mode
 
@@ -57,5 +56,3 @@ Each insert function checks for duplicates **against the existing records in the
 You can set `duplicate_mode="skip"` to ignore duplicates or `duplicate_mode="update"` to update the existing record.
 
 ---
-
-View demo: `../demo/`

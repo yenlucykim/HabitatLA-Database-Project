@@ -17,11 +17,11 @@ The purpose of this database is to enable smarter resource planning, improved tr
 
 ```
 HabitatLA-Database-Project/
-   ├── docs/ # ER diagram, final write-ups
-   ├── sql/ # DDL, DML, and test query scripts
-   ├── data_migration/ # Python scripts to import, validate, and insert data
-   ├── demo/ # Quick demos of data migration pipeline and sample queries
-   ├── README.md
+├── docs/ # ER diagram, final write-ups
+├── sql/ # DDL, DML, and test query scripts
+├── data_migration/ # Python scripts to import, validate, and insert data
+├── demo/ # Quick demos of data migration pipeline and sample queries
+├── README.md
 ```
 
 ---

@@ -16,11 +16,11 @@ The purpose of this database is to enable smarter resource planning, improved tr
 ## What's Inside
 
 HabitatLA-Database-Project/
-├── docs/ # ER diagram, final write-ups
-├── sql/ # DDL, DML, and test query scripts
-├── data_migration/ # Python scripts to import, validate, and insert data
-├── demo/ # Quick demos of data migration pipeline and sample queries
-├── README.md
+   ├── docs/ # ER diagram, final write-ups
+   ├── sql/ # DDL, DML, and test query scripts
+   ├── data_migration/ # Python scripts to import, validate, and insert data
+   ├── demo/ # Quick demos of data migration pipeline and sample queries
+   ├── README.md
 
 ---
 
@@ -36,8 +36,7 @@ HabitatLA-Database-Project/
 - `Donation` — Records amount, date, and donor
 - `DonationProject` — Links donations to projects and purpose
 
-View diagram: `docs/diagrams/ER_diagram.png`
-View demo: `demo/`
+View diagram: [ER_Diagram](docs/diagrams/ER_diagram.png)
 
 ---
 
@@ -60,7 +59,7 @@ View demo: `demo/`
 
 ## Data Migration
 
-See `data_migration/` for a fully functional migration pipeline built in Python. It reads .csv or .tsv files, validates and cleans data, handles duplicate entries based on existing database records, and inserts valid data into the MySQL database.
+See [Data Migration](data_migration/) for a fully functional migration pipeline built in Python. It reads .csv or .tsv files, validates and cleans data, handles duplicate entries based on existing database records, and inserts valid data into the MySQL database.
 
 Key features include:
 

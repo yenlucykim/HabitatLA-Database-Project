@@ -38,6 +38,7 @@ HabitatLA-Database-Project/
 - `DonationProject` — Links donations to projects and purpose
 
 View diagram: [ER_Diagram](docs/diagrams/ER_diagram.png)
+
 View visualizations: [Dashboards](https://public.tableau.com/app/profile/yea.yen.kim/vizzes)
 
 
